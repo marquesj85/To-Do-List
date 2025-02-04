@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>My page</h1>
+  <h2>TO DO LIST</h2>
+  <ul id="example-list">
+    <li>(Example)Do the dishes</li>
+    <li>(Example)Take out the trash</li><br>
+  </ul>
+  <ul id="todoList"></ul>
+  <form>
+    <fieldset>
+      <legend>Add/Remove Task/s</legend>
+      <input type="text" id="taskInput" placeholder="Enter new task">
+      <button onclick="addToDo()">Add Task</button><br>
+      <br>
+      <button onclick="removeCompleted()">Remove Completed</button>
+    </fieldset><br>
+
+
+  </form>
+
+  <script src="./index.js"></script>
+</body>
+</html>

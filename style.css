@@ -1,0 +1,27 @@
+h1 {
+  color: purple;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  margin-left: 10px;
+}
+
+li {
+  font-size: 20px;
+  color: #645709;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+body {
+  background-image: url('Honey-Do-List.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; /* Makes sure the body takes the full viewport height */
+  margin: 0;
+}
